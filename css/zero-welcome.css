@@ -1,0 +1,52 @@
+.allcontents{
+    text-align: center;
+}
+.header-img{
+    width: 750px;
+}
+.flow-img{
+    width: 750px;
+}
+.copyright-img{
+    width: 750px;
+}
+
+/* ボタンと画像を重ねるためのCSS */
+.firstview-contents {
+    background-image: url("../img/welcome_img/eyecatch.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 750px;
+    height: 600px;
+    margin: 0 auto;
+}
+.line-button{
+    background-image: url("../img/icon/white-line-logo.png");
+    background-repeat: no-repeat;
+    background-position: 150px 0px;
+    width: 650px;
+    height: 70px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    transition: all 0.01s;
+    box-shadow: 0 5px 0 #b0b0b0;
+    background-color: #6fc552;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #388e3c;
+    margin-top: 430px;
+}
+.line-button:hover{
+    background-image: url("../img/icon/green-line-logo.png");
+    background-color: #ffffff;
+    color: #4caf50;
+    border: 3px solid #4caf50;
+    box-shadow: 0 5px 0 #c8e6c9;
+}
+.return{
+    color: rgb(59, 157, 249);
+}

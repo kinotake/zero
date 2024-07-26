@@ -1,0 +1,220 @@
+.allcontents{
+    text-align: center;
+}
+/* 画像群 */
+.firstview-img{
+    width: 750px;
+}
+.merit-img{
+    width: 750px;
+}
+.suggestion-img{
+    width: 750px;
+}
+.buttun-img{
+    width: 750px;
+}
+.students-img{
+    width: 750px;
+}
+.try-img{
+    width: 750px;
+}
+.reason-img{
+    width: 750px;
+}
+.features-img{
+    width: 750px;
+}
+.flow-img{
+    width: 750px;
+}
+.fotter-links{
+    margin-top: 5px;
+}
+.copyright-img{
+    width: 750px;
+}
+/* ボタン */
+.firstview-try-button{
+    width: 700px;
+    height: 90px;
+    border: none;
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+    background-color: #FFEB3B;
+    color: rgb(5, 140, 231);
+    box-shadow: 3px 3px 3px #FBC02D;
+    transition: .3s;
+    display: inline-block;
+    margin-top: 870px;
+    padding-top: 40px;
+}
+.firstview-try-button:hover{
+    background-color: #FFFFFF;
+    color: #2196F3;
+    border: 3px solid #2196F3;
+    box-shadow: 3px 3px 0 #BBDEFB;
+    text-decoration: none;
+}
+.try-button{
+    width: 700px;
+    height: 90px;
+    border: none;
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+    background-color: #FFEB3B;
+    color: rgb(5, 140, 231);
+    box-shadow: 3px 3px 3px #FBC02D;
+    transition: .3s;
+    display: inline-block;
+    margin-top: 200px;
+    padding-top: 40px;
+}
+.try-button:hover {
+    background-color: #FFFFFF;
+    color: #2196F3;
+    border: 3px solid #2196F3;
+    box-shadow: 3px 3px 0 #BBDEFB;
+    text-decoration: none;
+}
+/* ボタンと画像を重ねるためのCSS */
+.firstview-contents{
+    background-image: url("../img/firstview.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 750px;
+    height: 1030px;
+    margin: 0 auto;
+}
+.button-contents{
+    background-image: url("../img/button.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 750px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+/* フォーム */
+.form-contents{
+    padding: 20px;
+    background-color: #ffffff;
+    width: 715px;
+    margin: 0 auto;
+    margin-top: -8px;
+    background-color: #ecf6ff;
+}
+.form-header{
+    color: #007bff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.form-sentence{
+    font-size: 0.9em;
+    color: #666;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.name-contents{
+    display: flex;
+}
+.last-name-label{
+    display: block;
+}
+.last-name{
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.first-name-label {
+    display: block;
+}
+.first-name{
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.email,.phone{
+    width: 650px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.first-name::placeholder{
+    color: #ccc;
+}
+.last-name::placeholder {
+    color: #ccc;
+}
+.email::placeholder {
+    color: #ccc;
+}
+.phone::placeholder {
+    color: #ccc;
+}
+.required {
+    background-color: #fb773fcc;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+.form-button {
+    width: 700px;
+    height: 90px;
+    border: none;
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+    background-color: rgb(5, 140, 231);
+    color: #FFFFFF;
+    box-shadow: rgb(0, 97, 162);
+    transition: .3s;
+    display: inline-block;
+    padding-top: 40px;
+}
+.form-button:hover {
+    background-color: #FFFFFF;
+    color: #2196F3;
+    border: 3px solid #2196F3;
+    box-shadow: 3px 3px 0 #BBDEFB;
+    text-decoration: none;
+}
+.link{
+    color: #007bff;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+.fotter-link{
+    text-decoration: none;
+    color: black;
+}
+.fotter-link:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
