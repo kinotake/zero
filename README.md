@@ -1,2 +1,1 @@
-# zero-lp
-# zero-lp
+# zero-repository
