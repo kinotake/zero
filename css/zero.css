@@ -33,24 +33,25 @@
     margin-top: 5px;
 }
 .copyright-img{
-    width: 750px;
+    width: 400px;
 }
 /* ボタン */
 .firstview-try-button{
     width: 700px;
-    height: 90px;
     border: none;
     border-radius: 60px;
     font-size: 40px;
     font-weight: bold;
     transition: box-shadow 0.3s;
-    background-color: #FFEB3B;
-    color: rgb(5, 140, 231);
-    box-shadow: 3px 3px 3px #FBC02D;
+    background-color: #FFFF55;
+    color: #0081CA;
+    box-shadow: 3px 3px 3px #D5AA1B;
     transition: .3s;
     display: inline-block;
     margin-top: 870px;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
 }
 .firstview-try-button:hover{
     background-color: #FFFFFF;
@@ -60,20 +61,20 @@
     text-decoration: none;
 }
 .try-button{
-    width: 700px;
-    height: 90px;
+    width: 600px;
     border: none;
     border-radius: 60px;
     font-size: 40px;
     font-weight: bold;
     transition: box-shadow 0.3s;
-    background-color: #FFEB3B;
-    color: rgb(5, 140, 231);
-    box-shadow: 3px 3px 3px #FBC02D;
-    transition: .3s;
+    background-color: #FFFF55;
+    color: #0081CA;
+    box-shadow: 3px 3px 3px #D5AA1B;
     display: inline-block;
     margin-top: 200px;
-    padding-top: 40px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-decoration: none;
 }
 .try-button:hover {
     background-color: #FFFFFF;
@@ -104,7 +105,7 @@
 .form-contents{
     padding: 20px;
     background-color: #ffffff;
-    width: 715px;
+    width: 750px;
     margin: 0 auto;
     margin-top: -8px;
     background-color: #ecf6ff;
@@ -117,6 +118,7 @@
 .form-sentence{
     font-size: 0.9em;
     color: #666;
+    margin-bottom: 50px;
 }
 .form-group{
     margin-bottom: 15px;
@@ -124,26 +126,31 @@
 .name-contents{
     display: flex;
 }
+label{
+    font-weight: bold;
+}
 .last-name-label{
     display: block;
+    margin-left: -220px;
 }
 .last-name{
-    width: 300px;
-    height: 35px;
+    width: 310px;
+    height: 60px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1em;
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 30px;
     margin-bottom: 15px;
 }
 .first-name-label {
     display: block;
+    margin-left: -220px;
 }
 .first-name{
-    width: 300px;
-    height: 35px;
+    width: 310px;
+    height: 60px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -154,13 +161,19 @@
 }
 .email,.phone{
     width: 650px;
-    height: 35px;
+    height: 60px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1em;
     margin-bottom: 15px;
     margin-top: 5px;
+}
+.email-label{
+    margin-right: 480px;
+}
+.phone-label{
+    margin-right: 530px;
 }
 .first-name::placeholder{
     color: #ccc;
@@ -179,10 +192,12 @@
     color: #ffffff;
     border-radius: 5px;
     padding: 2px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 10px;
 }
 .form-button {
-    width: 700px;
-    height: 90px;
+    width: 650px;
     border: none;
     border-radius: 60px;
     font-size: 40px;
@@ -190,10 +205,13 @@
     transition: box-shadow 0.3s;
     background-color: rgb(5, 140, 231);
     color: #FFFFFF;
-    box-shadow: rgb(0, 97, 162);
+    box-shadow: 5px 5px 0 #005F95;
     transition: .3s;
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    margin-bottom: 40px;
 }
 .form-button:hover {
     background-color: #FFFFFF;
@@ -202,17 +220,27 @@
     box-shadow: 3px 3px 0 #BBDEFB;
     text-decoration: none;
 }
+.consent-contents{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 .link{
     color: #007bff;
-    text-decoration: none;
 }
 .link:hover{
     text-decoration: underline;
     opacity: 0.7;
 }
+.footer-contents{
+    height: 50px;
+    width: 750px;
+    margin: 0 auto;
+}
 .fotter-link{
     text-decoration: none;
     color: black;
+    margin: 10px 10px;
 }
 .fotter-link:hover {
     text-decoration: underline;

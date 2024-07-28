@@ -8,7 +8,7 @@
     width: 750px;
 }
 .copyright-img{
-    width: 750px;
+    width: 450px;
 }
 
 /* ボタンと画像を重ねるためのCSS */
@@ -24,11 +24,11 @@
     background-image: url("../img/icon/white-line-logo.png");
     background-repeat: no-repeat;
     background-position: 150px 0px;
+    background-size: 90px;
     width: 650px;
-    height: 70px;
     display: inline-block;
-    padding: 15px 30px;
-    font-size: 45px;
+    padding: 20px 15px;
+    font-size: 35px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 25px;
@@ -48,5 +48,9 @@
     box-shadow: 0 5px 0 #c8e6c9;
 }
 .return{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 25px;
     color: rgb(59, 157, 249);
 }
