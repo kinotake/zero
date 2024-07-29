@@ -35,17 +35,18 @@
     text-align: center;
     transition: all 0.01s;
     box-shadow: 0 5px 0 #b0b0b0;
-    background-color: #6fc552;
+    background-color: #70C55E;
     color: #ffffff;
-    box-shadow: 0 5px 0 #388e3c;
+    box-shadow: 0 5px 0 #4F8E42;
     margin-top: 430px;
+    border: 3px solid #70C55E;
 }
 .line-button:hover{
     background-image: url("../img/icon/green-line-logo.png");
     background-color: #ffffff;
-    color: #4caf50;
-    border: 3px solid #4caf50;
-    box-shadow: 0 5px 0 #c8e6c9;
+    color: #70C55E;
+    border: 3px solid #70C55E;
+    box-shadow: 0 5px 0 #4F8E42;
 }
 .return{
     display: inline-block;
